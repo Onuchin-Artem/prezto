@@ -11,3 +11,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+export RBUILD_HOME=/Users/aonuchin/git-work/deprecated-tool/rbuild
+export PATH=/usr/local/bin:$PATH
